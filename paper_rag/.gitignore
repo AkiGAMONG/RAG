@@ -1,0 +1,23 @@
+# environments & caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+.DS_Store
+.claude/
+
+# secrets — never commit
+.env
+
+# local data & run artifacts (regenerable)
+paper_rag_data*/
+smoke_output/
+eval/results/
+
+# paper PDFs (copyright; test suite generates synthetic PDFs at runtime)
+*.pdf
+
+# personal working notes & Chinese-language documentation (local only)
+PROGRESS.md
+docs/
